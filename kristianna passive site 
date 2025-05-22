@@ -1,0 +1,35 @@
+import { Card, CardContent } from "@/components/ui/card"; import { Button } from "@/components/ui/button"; import { useState } from "react";
+
+export default function HomePage() { const [visitorName, setVisitorName] = useState("");
+
+return ( <main className="p-6 grid gap-6 max-w-4xl mx-auto"> <section className="text-center space-y-4"> <h1 className="text-4xl font-bold">Kristianna's AI Passive Career</h1> <p className="text-lg text-muted-foreground"> Discover tools, blogs, music, and guides to automate your income with AI. </p> <input type="text" placeholder="Enter your name" value={visitorName} onChange={(e) => setVisitorName(e.target.value)} className="border p-2 rounded w-full max-w-xs mx-auto" /> <p>Welcome {visitorName || "Guest"}!</p> </section>
+
+<section className="grid md:grid-cols-3 gap-4">
+    <Card>
+      <CardContent className="p-4 space-y-2">
+        <h2 className="text-xl font-semibold">Blogs</h2>
+        <p>Read and publish insightful content about AI and passive income.</p>
+        <Button variant="outline">Explore Blogs</Button>
+      </CardContent>
+    </Card>
+
+    <Card>
+      <CardContent className="p-4 space-y-2">
+        <h2 className="text-xl font-semibold">AI Tools</h2>
+        <p>Use our smart tools to generate content, automate tasks, and more.</p>
+        <Button variant="outline">Try Tools</Button>
+      </CardContent>
+    </Card>
+
+    <Card>
+      <CardContent className="p-4 space-y-2">
+        <h2 className="text-xl font-semibold">Music</h2>
+        <p>Stream Kristianna's latest tracks or learn to monetize your music with AI.</p>
+        <Button variant="outline">Listen Now</Button>
+      </CardContent>
+    </Card>
+  </section>
+</main>
+
+); }
+
