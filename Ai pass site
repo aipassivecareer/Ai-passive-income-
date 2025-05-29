@@ -1,0 +1,60 @@
+<!DOCTYPE html><html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Kristianna's AI Passive Career - Tools, Blogs, and Income Automation" />
+  <title>Kristianna's AI Passive Career</title>
+  <link rel="stylesheet" href="style.css" />
+  <script defer src="script.js"></script>
+</head>
+<body>
+  <header>
+    <h1>Kristianna's AI Passive Career</h1>
+    <nav>
+      <ul>
+        <li><a href="#tools">AI Tools</a></li>
+        <li><a href="#blog">Blog</a></li>
+        <li><a href="#music">Music</a></li>
+        <li><a href="#profit">Promote & Profit</a></li>
+      </ul>
+    </nav>
+  </header>  <main>
+    <section id="welcome">
+      <h2>Welcome</h2>
+      <p>Welcome to your ultimate AI-powered career hub. Explore tools, blogs, and more to start earning passive income today.</p>
+    </section><section id="tools">
+  <h2>AI Tools</h2>
+  <p>Use free and premium AI tools to create content, automate marketing, and generate income.</p>
+</section>
+
+<section id="blog">
+  <h2>Blog</h2>
+  <div id="cms-blog-placeholder">
+    <p>Blog posts managed via Netlify CMS will appear here.</p>
+  </div>
+</section>
+
+<section id="music">
+  <h2>Music</h2>
+  <p>Discover and support Kristianna's original music releases.</p>
+  <audio controls>
+    <source src="music/sample.mp3" type="audio/mpeg">
+    Your browser does not support the audio element.
+  </audio>
+</section>
+
+<section id="profit">
+  <h2>Promote & Profit</h2>
+  <p>Track your affiliate links, earnings, and referrals here (coming soon).</p>
+</section>
+
+  </main>  <footer>
+    <p>&copy; 2025 Kristianna's AI Passive Career</p>
+    <!-- Google AdSense Placeholder -->
+    <div id="adsense-slot">
+      <!-- Replace with real AdSense script -->
+      <p>Ad Placeholder</p>
+    </div>
+  </footer>
+</body>
+</html>
